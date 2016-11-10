@@ -1,0 +1,5 @@
+source https://www.nuget.org/api/v2
+nuget Nancy
+nuget Tavis.Problem
+nuget xunit
+nuget shouldly
