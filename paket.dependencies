@@ -5,6 +5,7 @@ content: none
 redirects: on
 copy_local: true
 
+nuget GitVersionTask
 nuget Nancy
 nuget Tavis.Problem
 nuget xunit
