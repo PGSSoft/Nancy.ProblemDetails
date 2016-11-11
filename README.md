@@ -1,4 +1,4 @@
-# Nancy.ProblemDetails [![Build status][av-badge]][build] [![NuGet version][nancy-badge]][nancy-link] [![codecov.io][cov-badge]][cov-link]
+# Nancy.ProblemDetails [![Build status][av-badge]][build] [![NuGet version][lib-badge]][lib-link] [![codecov.io][cov-badge]][cov-link]
 
 ## About
 
@@ -97,7 +97,7 @@ public class ServerErrorHandler : ProblemJsonStatusCodeHandler
 
 [av-badge]: https://ci.appveyor.com/api/projects/status/xugkf0u8ahbxpqrq?svg=true
 [build]: https://ci.appveyor.com/project/tpluscode78631/nancy-problemdetails
-[core-badge]: https://badge.fury.io/nu/nancy.problemdetails.svg
-[core-link]: https://badge.fury.io/nu/nancy.problemdetails
+[lib-badge]: https://badge.fury.io/nu/nancy.problemdetails.svg
+[lib-link]: https://badge.fury.io/nu/nancy.problemdetails
 [cov-badge]: https://codecov.io/gh/tpluscode/nancy.problemdetails/branch/master/graph/badge.svg
 [cov-link]: https://codecov.io/gh/tpluscode/nancy.problemdetails
