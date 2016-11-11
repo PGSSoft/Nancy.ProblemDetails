@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="ProblemJsonProcessorTests.cs" />
     <Compile Include="ProblemJsonResponseTests.cs" />
+    <Compile Include="ProblemJsonStatusCodeHandlerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
