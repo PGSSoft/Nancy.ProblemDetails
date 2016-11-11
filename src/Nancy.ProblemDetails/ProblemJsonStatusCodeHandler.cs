@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Nancy.ErrorHandling;
 using Tavis;
@@ -7,7 +8,7 @@ namespace Nancy.ProblemDetails
 {
     public delegate bool ShouldHandleStatusCode(HttpStatusCode code, NancyContext context);
 
-    public delegate ProblemDocument ProblemDocumentFactry(NancyContext context);
+    public delegate ProblemDocument ProblemDocumentFactory(NancyContext context);
 
     public abstract class ProblemJsonStatusCodeHandler : IStatusCodeHandler
     {
@@ -27,7 +28,7 @@ namespace Nancy.ProblemDetails
             context.Response = new ProblemJsonResponse(problemDocument).WithStatusCode(statusCode);
         }
 
-        protected void When(ShouldHandleStatusCode shouldhandleStatusCode, ProblemDocumentFactry problemDocumentFactory)
+        protected void When(ShouldHandleStatusCode shouldhandleStatusCode, ProblemDocumentFactory problemDocumentFactory)
         {
             _handlers.Add(new Handler
             {
@@ -39,7 +40,7 @@ namespace Nancy.ProblemDetails
         private class Handler
         {
             public ShouldHandleStatusCode ShouldHandleStatusCode { get; set; }
-            public ProblemDocumentFactry ProblemDocumentFactory { get; set; }
+            public ProblemDocumentFactory ProblemDocumentFactory { get; set; }
         }
     }
 }
