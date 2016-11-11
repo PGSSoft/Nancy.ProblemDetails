@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nancy.ProblemDetails.Tests"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CBF525B4-A8F4-4305-B88F-775C07612914}"
 	ProjectSection(SolutionItems) = preProject
+		after.Nancy.ProblemDetails.sln.targets = after.Nancy.ProblemDetails.sln.targets
+		appveyor.yml = appveyor.yml
 		paket.dependencies = paket.dependencies
 		paket.lock = paket.lock
 	EndProjectSection
