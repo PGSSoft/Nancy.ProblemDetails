@@ -1,0 +1,18 @@
+type project
+id Nancy.ProblemDetails
+include-pdbs true
+excludeddependencies
+  GitVersionTask
+tags
+  - nancy 
+  - Problem Document 
+  - rfc7887 
+  - rfc 7887 
+  - draft-nottingham-http-problem 
+  - http problem details
+copyright 
+  Copyright 2016 Tomasz Pluskiewicz
+licenseUrl
+  http://www.opensource.org/licenses/mit-license.php
+projectUrl
+  http://github.org/tpluscode/Nancy.ProblemDocument
