@@ -8,6 +8,7 @@ NUGET
     GitVersionTask (3.6.4)
     Nancy (1.4.3)
     Newtonsoft.Json (9.0.1)
+    OpenCover (4.6.519)
     Shouldly (2.8.2)
     Tavis.Problem (1.0.1)
       Newtonsoft.Json (>= 6.0.8)

@@ -11,3 +11,4 @@ nuget Tavis.Problem
 nuget xunit
 nuget shouldly
 nuget GitLink
+nuget OpenCover
