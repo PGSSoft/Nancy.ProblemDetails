@@ -95,9 +95,9 @@ public class ServerErrorHandler : ProblemJsonStatusCodeHandler
     }
 ```
 
-[av-badge]: https://ci.appveyor.com/api/projects/status/xugkf0u8ahbxpqrq?svg=true
-[build]: https://ci.appveyor.com/project/tpluscode78631/nancy-problemdetails
+[av-badge]: https://ci.appveyor.com/api/projects/status/u4g3mj9txxpt08ok?svg=true
+[build]: https://ci.appveyor.com/project/tpluscode78631/nancy-problemdetails-6kk9k
 [lib-badge]: https://badge.fury.io/nu/nancy.problemdetails.svg
 [lib-link]: https://badge.fury.io/nu/nancy.problemdetails
-[cov-badge]: https://codecov.io/gh/tpluscode/nancy.problemdetails/branch/master/graph/badge.svg
-[cov-link]: https://codecov.io/gh/tpluscode/nancy.problemdetails
+[cov-badge]: https://codecov.io/gh/PGSSoft/Nancy.ProblemDetails/branch/master/graph/badge.svg
+[cov-link]: https://codecov.io/gh/PGSSoft/Nancy.ProblemDetails
