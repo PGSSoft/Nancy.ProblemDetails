@@ -1,4 +1,4 @@
-# Nancy.ProblemDetails [![Build status][av-badge]][build] [![NuGet version][lib-badge]][lib-link] [![codecov.io][cov-badge]][cov-link]
+# Nancy.ProblemDetails [![Build status][av-badge]][build] [![NuGet version][lib-badge]][lib-link] [![codecov.io][cov-badge]][cov-link] [![codefactor][codefactor-badge]][codefactor-link]
 
 ## About
 
@@ -101,3 +101,5 @@ public class ServerErrorHandler : ProblemJsonStatusCodeHandler
 [lib-link]: https://badge.fury.io/nu/nancy.problemdetails
 [cov-badge]: https://codecov.io/gh/PGSSoft/Nancy.ProblemDetails/branch/master/graph/badge.svg
 [cov-link]: https://codecov.io/gh/PGSSoft/Nancy.ProblemDetails
+[codefactor-badge]: https://www.codefactor.io/repository/github/PGSSoft/Nancy.ProblemDetails/badge/master
+[codefactor-link]: https://www.codefactor.io/repository/github/PGSSoft/Nancy.ProblemDetails/overview/master
